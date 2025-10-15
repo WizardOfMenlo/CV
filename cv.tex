@@ -1,0 +1,175 @@
+\documentclass[11pt,a4paper]{article}
+
+%========== Packages ==========
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{multicol}
+
+%========== Style ==========
+\setlength{\parindent}{0pt}
+\setstretch{1.1}
+\titleformat{\section}{\Large\bfseries\scshape}{}{0em}{}
+\titleformat{\subsection}{\large\bfseries}{}{0em}{}
+\renewcommand{\labelitemi}{--}
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.3em}
+\setlist[enumerate]{leftmargin=1.5em, itemsep=0.6em}
+
+%========== Document ==========
+\begin{document}
+
+%========== Header ==========
+\begin{center}
+    {\huge \textbf{Giacomo Fenzi}} \\[0.3em]
+\end{center}
+
+%========== Personal Information ==========
+\section*{Personal Information}
+\begin{tabular}{rl}
+  \textbf{Email:} &\href{mailto:giacomo.fenzi@epfl.ch}{giacomo.fenzi@epfl.ch} \\
+  \textbf{Website:} &\url{gfenzi.io} \\
+  \textbf{Birth place \& date:} & Milan (Italy), 28 March 1998 \\
+  \textbf{Nationality:} & Italian \\
+  \textbf{Languages:} & English (fluent), Italian (native) \\
+\end{tabular}
+
+%========== Research Interests ==========
+\section*{Research Interests}
+Cryptography, Security, Complexity Theory
+
+%========== Education ==========
+\section*{Education}
+\begin{itemize}
+  \item \textbf{EPFL, Ph.D.}, Computer Science, present.
+  \item \textbf{ETH Z\"urich, M.Sc.}, Cybersecurity, September 2022.
+  \item \textbf{University of St.\ Andrews, B.Sc.}, Computer Science and Mathematics, July 2020.
+\end{itemize}
+
+%========== Awards ==========
+\section*{Awards}
+\begin{itemize}
+  \item Best Paper Award at CRYPTO 2024 (recognizes the paper ``STIR: Reed–Solomon Proximity Testing with Fewer Queries'' for a breakthrough result)
+  \item Teaching Assistant Award 2024 (awarded for exceptional contribution to teaching excellence)
+\end{itemize}
+
+%========== Publications ==========
+\section*{Publications}
+
+\subsection*{2025}
+\begin{enumerate}
+  \item \textit{Linear Time Accumulation Schemes}\\
+  Benedikt Bünz, Alessandro Chiesa, Giacomo Fenzi, William Wang\\
+  \textbf{TCC 2025} (23rd Theory of Cryptography Conference)
+  
+  \item \textit{Time-Space Trade-offs for the Sumcheck Protocol}\\
+  Anubhav Baweja, Alessandro Chiesa, Elisabetta Fedele, Giacomo Fenzi, Pratyush Mishra, Tushar Mopuri, Andrew Zitek-Estrada\\
+  \textbf{TCC 2025} (23rd Theory of Cryptography Conference)  
+
+  \item \textit{TensorSwitch: Nearly Optimal Polynomial Commitments from
+Tensor Codes}\\
+  Benedikt Bünz, Giacomo Fenzi, Ron Rothblum, William Wang\\
+  \textbf{In submission}
+
+  \item \textit{Zero-Knowledge IOPPs for Constrained Interleaved Codes} \\
+  Alessandro Chiesa, Giacomo Fenzi, Guy Weissenberg\\
+  \textbf{In submission}
+
+  \item \textit{Interactive Proofs for Batch Polynomial Evaluation}\\
+  Gal Arnon, Alessandro Chiesa, Giacomo Fenzi, Eylon Yogev\\
+  \textbf{In submission}
+  
+  \item \textit{zip: Reducing Proof Sizes for Hash-Based SNARGs}\\
+  Giacomo Fenzi, Yuwen Zhang\\
+  \textbf{In submission}
+\end{enumerate}
+
+\subsection*{2024}
+\begin{enumerate}
+  \item \textit{WHIR: Reed–Solomon Proximity Testing with Super-Fast Verification}\\
+  Gal Arnon, Alessandro Chiesa, Giacomo Fenzi, Eylon Yogev\\
+  \textbf{EUROCRYPT 2025} (44th Conference on the Theory and Applications of Cryptographic Techniques)
+  
+  \item \textit{zkSNARKs in the ROM with Unconditional UC-Security}\\
+  Alessandro Chiesa, Giacomo Fenzi\\
+  \textbf{TCC 2024} (22nd Theory of Cryptography Conference)
+  
+  \item \textit{STIR: Reed–Solomon Proximity Testing with Fewer Queries}\\
+  Gal Arnon, Alessandro Chiesa, Giacomo Fenzi, Eylon Yogev\\
+  \textbf{CRYPTO 2024} (44th International Cryptology Conference) \\
+  \textbf{Best Paper Award} (awarded to two papers in this conference)
+  
+  \item \textit{Lova: Lattice-Based Folding Scheme from Unstructured Lattices}\\
+  Giacomo Fenzi, Christian Knabenhans, Khanh Ngoc Nguyen, Duc Tu Pham\\
+  \textbf{ASIACRYPT 2024} (30th International Conference on the Theory and Application of Cryptology and Information Security)
+    
+  \item \textit{Finding Bugs and Features Using Cryptographically-Informed Functional Testing}\\
+  Giacomo Fenzi, Jan Gilcher, Fernando Virdia\\
+  \textbf{TCHES 2026} (Transactions on Crypthographic Hardware and Embedded Systems)
+  
+  \item \textit{Post-Quantum Access Control with Application to Secure Data Retrieval}\\
+  Behzad Abdolmaleki, Hannes Blümel, Tianxiang Dai, Giacomo Fenzi, Homa Khajeh, Stefan Köpsell, Maryam Zarezadeh\\
+  \textbf{Communications in Cryptology 2025}
+\end{enumerate}
+
+\subsection*{2023}
+\begin{enumerate}
+  \item \textit{SLAP: Succinct Lattice-Based Polynomial Commitments from Standard Assumptions}\\
+  Martin R Albrecht, Giacomo Fenzi, Oleksandra Lapiha, Ngoc Khanh Nguyen\\
+  \textbf{EUROCRYPT 2024} (44th Conference on the Theory and Applications of Cryptographic Techniques)
+  
+  \item \textit{Lattice-Based Polynomial Commitments: Towards Concrete and Asymptotical Efficiency}\\
+  Giacomo Fenzi, Hossein Moghaddas, Ngoc Khanh Nguyen\\
+  \textbf{Journal of Cryptology 2024}
+\end{enumerate}
+
+\subsection*{Books}
+\begin{enumerate}
+  \item \textit{Latin Diachronic Frequency Dictionary Vol. 2.}\\
+  Giacomo Fenzi.\\
+  \textbf{Propylaeum: Digital Classics Books, Universitätsbibliothek Heidelberg, 2022.}
+  
+  \item \textit{Latin Diachronic Frequency Dictionary Vol. 4.}\\
+  Giacomo Fenzi, James Leslie, William Short, Thomas Spinelli.\\
+  \textbf{Propylaeum: Digital Classics Books, Universitätsbibliothek Heidelberg, 2022.}
+\end{enumerate}
+
+%========== Work Experience ==========
+\section*{Work Experience}
+
+\begin{itemize}[leftmargin=1.5em]
+
+  \item \textbf{Succinct Labs}, San Francisco, United States\\
+  \textit{Research Intern}, May 2025 -- September 2025
+
+  \item \textbf{ETH Z\"urich}, Z\"urich, Switzerland\\
+  \textit{Hilfsassistent, Zero Knowledge Proofs \& Applied Cryptography}, September 2021 -- August 2022
+
+  \item \textbf{Twitter}, London, United Kingdom\\
+  \textit{Intern, Make Everything Searchable}, June 2021 -- September 2021
+
+  \item \textbf{University of St Andrews}, St Andrews, United Kingdom\\
+  \textit{Research Assistant}, June 2020 -- August 2020
+
+  \item \textbf{Goldman Sachs}, London, United Kingdom\\
+  \textit{Intern, Merchant Banking Division}, June 2019 -- August 2019
+
+  \item \textbf{Deloitte}, Milan, Italy\\
+  \textit{Intern, Advanced Analytics}, June 2018 -- July 2018
+
+  \item \textbf{TecGlass Digital}, Lalín, Spain\\
+  \textit{Intern}, June 2017
+\end{itemize}
+
+
+%========== Optional Sections ==========
+% \section*{Teaching}
+% \section*{Service and Reviewing}
+% \section*{Talks and Invited Lectures}
+
+\end{document}
